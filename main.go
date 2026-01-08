@@ -15,6 +15,7 @@ func main() {
 		// Return JSON response
 		c.JSON(http.StatusOK, gin.H{
 			"message": "pong",
+			"stats":   "OK",
 		})
 	})
 
